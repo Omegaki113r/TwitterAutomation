@@ -12,6 +12,6 @@ twitter=Twython(consumer_key,
                 access_token,
                 access_token_secret)
 
-message="Hello World From My Twitter Bot #vuejs #programmer #coderlife #womenwhocode #java #python #javascript #csharp #cplusplus #django #webdeveloper #webdesign #ruby #sql #androiddeveloper #swift #php #html #css #html5 #reactjs #AngularJS #developer"
-twitter.update_status(status=message)
-print "tweeted: {}".format(message)
+photo=open("C:/Users/OmegaKiller/Desktop/twitter/3fc333d34872f31113e0f21d5a896927.png","rb")
+response=twitter.upload_media(media=photo)
+twitter.update_status(status="This photo is uploaded by a bot",media_ids=[response['media_id']])
