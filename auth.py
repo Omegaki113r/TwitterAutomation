@@ -1,4 +1,4 @@
-consumer_key="wWb3w8Gngbppy1tbbz7ULZaS1"
-consumer_secret="8lNgg3Ley4Bktp5eUtIragctIDd5YpH9b5cc1tBUwc5JA9JR5y"
-access_token="1049270661464580096-iScGjKUggXGIMeUtFXXiwGEKfCDyyQ"
-access_token_secret="OSDzXje6upBGETpgvfcbdoNT9B61NY12PDNcvgNoNVwiV"
+consumer_key=""
+consumer_secret=""
+access_token=""
+access_token_secret=""
